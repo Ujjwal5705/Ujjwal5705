@@ -6,7 +6,9 @@ Email Me 👉 ✉️ **sharmaujjwal5706@gmail.com** For Collaboration/Project or
 - 🔭 **I’m currently working on:** Stock Prediction Portal 
 - 🌱 **I’m currently learning:** Django Rest Framework
 - 💬 **Ask me about:** Backend and Machine Learning related stuff
-- ⚡ **Fun fact:** I am Code Blooded 
+- ⚡ **Fun fact:** I am Code Blooded
+
+![](https://komarev.com/ghpvc/?username=Ujjwal5705&color=green)
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ujjwal_sharma5705) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ujjwal-sharma-b16392222) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@UjjwalSharma385) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sharmaujjwal5705@gmail.com) 
