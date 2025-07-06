@@ -75,7 +75,7 @@ me.show_tech_stack()
 [![](https://visitcount.itsvg.in/api?id=Ujjwal5705&icon=0&color=0)](https://visitcount.itsvg.in)
 
 
-## 🗂️ Highlight Projects
+## 🗂️ My Projects
 
 <a href="https://github.com/Ujjwal5705/Stock-Prediction-Portal">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Stock-Prediction-Portal&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Stock-Prediction-Portal" />
