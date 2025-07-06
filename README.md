@@ -21,12 +21,13 @@ class SoftwareEngineer:
 me = SoftwareEngineer()
 me.say_hi()
 ```
- <h5 align="center">
+ <h3 align="center">
    <i>⚡️I don’t trust people who don’t write SQL queries in uppercase⚡️</i>
-  </h5>
-  
+  </h3>
 
-![](https://komarev.com/ghpvc/?username=Ujjwal5705&color=green)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ujjwal5705&color=green" alt="Profile views"/>
+</p>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ujjwal_sharma5705) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ujjwal-sharma-b16392222) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@UjjwalSharma385) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sharmaujjwal5705@gmail.com) 
