@@ -74,7 +74,6 @@ me.show_techh_stack()
 ---
 [![](https://visitcount.itsvg.in/api?id=Ujjwal5705&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<h2 align="left">Coding Activity</h2>
 
 ## 🗂️ Highlight Projects
 
