@@ -43,13 +43,37 @@ me.say_hi()
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Ujjwal5705&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Ujjwal5705&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
 ---
 [![](https://visitcount.itsvg.in/api?id=Ujjwal5705&icon=0&color=0)](https://visitcount.itsvg.in)
 
-  
+<h2 align="left">Coding Activity</h2>
+
+> Total coding time since 19-07-2023. Updated every 1 hour.
+
+<!-- prettier-ignore-start -->
+<!-- START_SECTION:ascii_graph -->
+
+```
+  2204.6 hr  ┤╭────────────────────────────────────────────────────────────────────────────────────────────────── 
+  2204.6 hr  ┤│                                                                                                   
+  2204.6 hr  ┤│                                                                                                   
+  2204.6 hr  ┤│                                                                                                   
+  2204.6 hr  ┤│                                                                                                   
+  2204.5 hr  ┤│                                                                                                   
+  2204.5 hr  ┤│                                                                                                   
+  2204.5 hr  ┤│                                                                                                   
+  2204.5 hr  ┤│                                                                                                   
+  2204.5 hr  ┤│                                                                                                   
+  2204.5 hr  ┤│                                                                                                   
+  2204.4 hr  ┤│                                                                                                   
+  2204.4 hr  ┼╯                                                                                                   
+             ┼─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┤ 
+            -7d           -6d           -5d           -4d           -3d           -2d           -1d           now
+```
+
+<!-- END_SECTION:ascii_graph -->
+<!-- prettier-ignore-end -->
+
 ## 🗂️ Highlight Projects
 
 <a href="https://github.com/Ujjwal5705/Stock-Prediction-Portal">
@@ -58,6 +82,10 @@ me.say_hi()
 
 <a href="https://github.com/Ujjwal5705/Automate_boring_stuff">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Automate_boring_stuff&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Automate_boring_stuff" />
+</a>
+
+<a href="https://github.com/Ujjwal5705/UrbanKart">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=UrbanKart&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="UrbanKart" />
 </a>
 
   ## 💰 You can help me by Donating
