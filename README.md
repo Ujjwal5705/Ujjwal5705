@@ -106,12 +106,18 @@ me.say_hi()
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=UrbanKart&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="UrbanKart" />
 </a>
 
-## 💰 You can help me by Donating
+---
 
-<p align="left">
+<h3 align="center">
+    💰 You can help me by Donating
+</h3>
+
+<p align="center">
   <a href="https://paypal.me/UjjwalSharma851">
     <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal Donation">
   </a>
 </p>
 
-<img align="right" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" alt="Coder gif" width="375" height="250" />
+<p align="center">
+    <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" alt="Coder gif" width="200" height="200" />
+</p>
