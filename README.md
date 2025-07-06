@@ -1,4 +1,4 @@
-# Hello There 👋
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=A+Passionate+Software+Developer;Django+Backend+Developer" alt="Typing SVG" /></a>
 
 ```python
 #!/usr/bin/python
