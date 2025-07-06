@@ -32,7 +32,7 @@ class SoftwareEngineer:
 
 me = SoftwareEngineer()
 me.say_hi()
-me.show_techh_stack()
+me.show_tech_stack()
 ```
  <h3 align="center">
    <i>⚡️I don’t trust people who don’t write SQL queries in uppercase⚡️</i>
