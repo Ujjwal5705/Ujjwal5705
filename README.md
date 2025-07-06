@@ -119,5 +119,5 @@ me.say_hi()
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" alt="Coder gif" width="200" height="200" />
+    <img alt="GIF" src="https://media.giphy.com/media/3ohzdKvLT1DxFxhZAI/giphy.gif" />
 </p>
