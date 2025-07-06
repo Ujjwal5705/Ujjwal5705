@@ -45,14 +45,6 @@ me.say_hi()
 ---
 [![](https://visitcount.itsvg.in/api?id=Ujjwal5705&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Snake Game Repo View -->
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
-
-  ## 💰 You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/UjjwalSharma851) 
-
   
 ## 🗂️ Highlight Projects
 
@@ -63,3 +55,7 @@ me.say_hi()
 <a href="https://github.com/Ujjwal5705/Automate_boring_stuff">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Automate_boring_stuff&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Automate_boring_stuff" />
 </a>
+
+  ## 💰 You can help me by Donating
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/UjjwalSharma851) 
+
