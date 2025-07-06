@@ -1,4 +1,10 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=A+Passionate+Software+Developer;Django+Backend+Developer" alt="Typing SVG" /></a>
+
+# Hi There 👋
+
+<p align="center>
+    <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=I'm+Ujjwal+Sharma;Self-taught+Software+Engineer;Django+Backend+Developer;Machine+Learning+Enthusiast" alt="Typing SVG" /></a>
+</p>
 
 ```python
 #!/usr/bin/python
