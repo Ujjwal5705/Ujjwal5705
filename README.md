@@ -1,3 +1,5 @@
+# Hello There 👋
+
 ```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -52,4 +54,12 @@ me.say_hi()
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/UjjwalSharma851) 
 
   
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🗂️ Highlight Projects
+
+<a href="https://github.com/Ujjwal5705/Stock-Prediction-Portal">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Stock-Prediction-Portal&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Stock-Prediction-Portal" />
+</a>
+
+<a href="https://Ujjwal5705/Automate_boring_stuff">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Automate_boring_stuff&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Automate_boring_stuff" />
+</a>
