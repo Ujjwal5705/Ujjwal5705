@@ -1,12 +1,22 @@
-# Hi 👋, I'm Ujjwal Sharma
-A passionate **Backend Developer**
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-Email Me 👉 ✉️ **sharmaujjwal5706@gmail.com** For Collaboration/Project or Anything Else. 😊😊
 
-- 🔭 **I’m currently working on:** Stock Prediction Portal 
-- 🌱 **I’m currently learning:** Django Rest Framework
-- 💬 **Ask me about:** Backend and Machine Learning related stuff
-- ⚡ **Fun fact:** I am Code Blooded
+class SoftwareEngineer:
+
+    def __init__(self):
+        self.name = "Ujjwal Sharma"
+        self.role = "Software Engineer"
+        self.language_spoken = ["Eng", "Hindi"]
+
+    def say_hi(self):
+        print("Thanks for dropping by, hope you find some of my work interesting.")
+
+
+me = SoftwareEngineer()
+me.say_hi()
+```
 
 ![](https://komarev.com/ghpvc/?username=Ujjwal5705&color=green)
 
