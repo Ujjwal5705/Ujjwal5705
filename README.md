@@ -19,7 +19,7 @@ class SoftwareEngineer:
             "NodeJS", "NPM", "Bun", "jQuery", "Vite",
             "Netlify", "Vercel", "AWS", "Nginx", "Gunicorn", "Redis",
             "MySQL", "SQLite", "Pandas", "NumPy", "Matplotlib", "Keras", "Jupyter Notebook",
-            "Anaconda", "Windows Terminal", "Postman", "Git", "GitHub", "Gitea"
+            "Miniconda", "Windows Terminal", "Postman", "Git", "GitHub", "Gitea"
         ]
 
     def say_hi(self):
