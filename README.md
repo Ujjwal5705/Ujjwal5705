@@ -26,7 +26,7 @@ class SoftwareEngineer:
         print("Thanks for dropping by, hope you find some of my work interesting.")
 
     def show_tech_stack(self):
-        print("🚀 Tech Stack:")
+        print("My Tech Stack:")
         for tech in self.tech_stack:
             print(f" - {tech}")
 
