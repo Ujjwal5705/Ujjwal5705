@@ -86,7 +86,7 @@ me.show_tech_stack()
 
 <p align="center">
   <a href="https://github.com/Ujjwal5705/Arbiter">
-    <img src="https://img.shields.io/badge/🚀_Arbiter-Bug_Bounty_&_Recon-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
+    <img src="https://img.shields.io/badge/⏱️_Arbiter-RTOS_&_Kernel_Dev-22272e?style=for-the-badge&logo=linux&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Ujjwal5705/Orbyt-CLI">
