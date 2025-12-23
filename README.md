@@ -75,42 +75,6 @@ me.show_tech_stack()
 </div>
 
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Ujjwal5705&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
----
-[![](https://visitcount.itsvg.in/api?id=Ujjwal5705&icon=0&color=0)](https://visitcount.itsvg.in)
-
-
-<h2 align="center">🗂️ Featured Projects</h2>
-
-<p align="center">
-  <a href="https://github.com/Ujjwal5705/Arbiter">
-    <img src="https://img.shields.io/badge/⏱️_Arbiter-RTOS_&_Kernel_Dev-22272e?style=for-the-badge&logo=linux&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Ujjwal5705/Orbyt-CLI">
-    <img src="https://img.shields.io/badge/🤖_Orbyt_CLI-AI_Assistant-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Ujjwal5705/Stock-Prediction-Portal">
-    <img src="https://img.shields.io/badge/📈_Stock_Prediction-ML_&_Django-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Ujjwal5705/Automate_boring_stuff">
-    <img src="https://img.shields.io/badge/⚙️_Automate_Stuff-Django_Tools-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Ujjwal5705/UrbanKart">
-    <img src="https://img.shields.io/badge/🛒_UrbanKart-E--Commerce_Platform-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
-  </a>
-</p>
-
----
 
 <h3 align="center">
     💰 You can help me by Donating
