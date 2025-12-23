@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/Ujjwal5705/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi+There+%F0%9F%91%8B+I'm+Ujjwal+Sharma;Self-taught+Software+Engineer;Django+Backend+Developer;Machine+Learning+Enthusiast" alt="Typing SVG" /></a>
+<a href="https://github.com/Ujjwal5705/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi+There+%F0%9F%91%8B+I'm+Ujjwal+Sharma;Self-taught+Software+Engineer;Machine+Learning+Enthusiast" alt="Typing SVG" /></a>
 </p>
 
 ```python
