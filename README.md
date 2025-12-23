@@ -82,31 +82,31 @@ me.show_tech_stack()
 [![](https://visitcount.itsvg.in/api?id=Ujjwal5705&icon=0&color=0)](https://visitcount.itsvg.in)
 
 
-## 🗂️ My Projects
-
-## 🗂️ My Projects
+<h2 align="center">🗂️ Featured Projects</h2>
 
 <p align="center">
   <a href="https://github.com/Ujjwal5705/Arbiter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Arbiter&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Arbiter" height="150" />
+    <img src="https://img.shields.io/badge/🚀_Arbiter-Bug_Bounty_&_Recon-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/Ujjwal5705/Orbyt-CLI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Orbyt-CLI&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Orbyt-CLI" height="150" />
+    <img src="https://img.shields.io/badge/🤖_Orbyt_CLI-AI_Assistant-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Ujjwal5705/Stock-Prediction-Portal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Stock-Prediction-Portal&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Stock-Prediction-Portal" height="150" />
+    <img src="https://img.shields.io/badge/📈_Stock_Prediction-ML_&_Django-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/Ujjwal5705/Automate_boring_stuff">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Automate_boring_stuff&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Automate_boring_stuff" height="150" />
+    <img src="https://img.shields.io/badge/⚙️_Automate_Stuff-Django_Tools-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Ujjwal5705/UrbanKart">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=UrbanKart&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="UrbanKart" height="150" />
+    <img src="https://img.shields.io/badge/🛒_UrbanKart-E--Commerce_Platform-22272e?style=for-the-badge&logo=github&logoColor=6aa6f8&labelColor=22272e&color=6aa6f8" height="50" />
   </a>
 </p>
 
