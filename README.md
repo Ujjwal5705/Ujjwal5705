@@ -84,25 +84,31 @@ me.show_tech_stack()
 
 ## 🗂️ My Projects
 
-<a href="https://github.com/Ujjwal5705/Arbiter">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Arbiter&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Arbiter" />
-</a>
+## 🗂️ My Projects
 
-<a href="https://github.com/Ujjwal5705/Orbyt-CLI">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Orbyt-CLI&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Orbyt-CLI" />
-</a>
+<p align="center">
+  <a href="https://github.com/Ujjwal5705/Arbiter">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Arbiter&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Arbiter" height="150" />
+  </a>
+  <a href="https://github.com/Ujjwal5705/Orbyt-CLI">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Orbyt-CLI&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Orbyt-CLI" height="150" />
+  </a>
+</p>
 
-<a href="https://github.com/Ujjwal5705/Stock-Prediction-Portal">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Stock-Prediction-Portal&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Stock-Prediction-Portal" />
-</a>
+<p align="center">
+  <a href="https://github.com/Ujjwal5705/Stock-Prediction-Portal">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Stock-Prediction-Portal&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Stock-Prediction-Portal" height="150" />
+  </a>
+  <a href="https://github.com/Ujjwal5705/Automate_boring_stuff">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Automate_boring_stuff&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Automate_boring_stuff" height="150" />
+  </a>
+</p>
 
-<a href="https://github.com/Ujjwal5705/Automate_boring_stuff">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=Automate_boring_stuff&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Automate_boring_stuff" />
-</a>
-
-<a href="https://github.com/Ujjwal5705/UrbanKart">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=UrbanKart&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="UrbanKart" />
-</a>
+<p align="center">
+  <a href="https://github.com/Ujjwal5705/UrbanKart">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ujjwal5705&repo=UrbanKart&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="UrbanKart" height="150" />
+  </a>
+</p>
 
 ---
 
