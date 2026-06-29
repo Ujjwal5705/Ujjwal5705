@@ -100,9 +100,9 @@ I'm a passionate Computer Science student at **IIIT Bhopal** (B.Tech CSE, CGPA: 
 |     Google Big Code 2026       |                        **Round 2 Qualifier**                       |
 |     Nexus Spring of Code       |                          **Project Admin**                         |
 |          GSSoC 2024            |             **Open Source Contributor** — Rank **191**             |
-|          Codeforces            |                             **Expert**                             |
+|          Codeforces            |                   **Candidate Master**                             |
 |           LeetCode             |                             **Knight**                             |
-|           CodeChef             |                        **3-Star Programmer**                      |
+|           CodeChef             |                        **3-Star Programmer**                       |
 |   Competitive Programming      |             **1500+ Problems Solved** across platforms             |
 |      OPTIGO (Inter-IIIT)       |                 **Top 5%** among 1000+ participants                |
 |     CodeChef Starters 156      |                 **Rank 172 / 43,114 Participants**                 |
