@@ -36,11 +36,11 @@
 
 I'm a passionate Computer Science student at **IIIT Bhopal** (B.Tech CSE, CGPA: 8.57) who loves building real-world applications that solve actual problems. Driven by curiosity, I'm constantly exploring new tech — from backend systems and cloud infra to Quant and generative AI.
 
-- 🎓 **LFX'26 Mentee @ Magma-Core** (The Linux Foundation)
-- 💡 Strong interest in **Systems Programming**, **Linux**, **Networking**, and **Backend Engineering**
-- 🧩 Competitive programmer with **1500+ DSA problems** solved
-- 🔍 Currently exploring **Microservices Architecture** and **System Design**
-- 🌱 Always learning, always building
+- **LFX'26 Mentee @ Magma-Core** (The Linux Foundation)
+- Strong interest in **Systems Programming**, **Linux**, **Networking**, and **Backend Engineering**
+- Competitive programmer with **1500+ DSA problems** solved
+- Currently exploring **Microservices Architecture** and **System Design**
+- Always learning, always building
 
 ---
 
@@ -94,7 +94,7 @@ I'm a passionate Computer Science student at **IIIT Bhopal** (B.Tech CSE, CGPA: 
 
 <div align="center">
 
-|         🏅 Achievement         |                               Details                              |
+|         🏅 Achievements        |                               Details                              |
 | :----------------------------: | :----------------------------------------------------------------: |
 |             LFX'26             |           **Mentee @ Magma-Core (The Linux Foundation)**           |
 |     Google Big Code 2026       |                        **Round 2 Qualifier**                       |
@@ -213,6 +213,6 @@ I'm a passionate Computer Science student at **IIIT Bhopal** (B.Tech CSE, CGPA: 
 
 
 <div align="center">
-  <h3>📄 <a href="https://drive.google.com/file/d/1MxVwimhukHPmHfJx2wtJerh2erFi39Z3/view?usp=sharing">Check out my Resume</a></h3>
+  <h3><a href="https://drive.google.com/file/d/1MxVwimhukHPmHfJx2wtJerh2erFi39Z3/view?usp=sharing">Check out my Resume</a></h3>
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3R0aHZuMWFhdDN4MHJuZXVzeHNxd3dkMmNveHZxd3VydWh0cmtxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L8K62iTDkzGX6/giphy.gif" width="400" />
 </div>
