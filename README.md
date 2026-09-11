@@ -1,218 +1,216 @@
-# <div align="center">![Header](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&pause=1000&color=6B9DF7&center=true&vCenter=true&random=false&width=800&height=70&lines=Hi+%F0%9F%91%8B%2C+I%27m+Ujjwal+Sharma;Software+Developer;Competitive+Programmer;ML+Enthusiast)</div>
+<div align="center">
+
+# Ujjwal Sharma
+
+**Software Engineer** · **Backend & Distributed Systems** · **AI/ML**
+
+<div align="center"> <img src="https://media1.tenor.com/m/ww7tSdF5eqsAAAAd/captain-levi.gif" alt="Captain Levi"/> </div>
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ujjwal-sharma-b16392222/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sharmaujjwal5706@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Ujjwal5706-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/Ujjwal5706/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-sharmaujjwal5706-445f9d?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/sharmaujjwal5706)
+[![Resume](https://img.shields.io/badge/Resume-View-1A1A1A?style=flat&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1MxVwimhukHPmHfJx2wtJerh2erFi39Z3/view?usp=sharing)
+
++91 6397643305 · India · Open to Software Engineering roles
+
+</div>
+
+## Profile
+
+Computer Science undergraduate at **IIIT Bhopal** focused on **backend engineering, distributed systems, and applied AI/ML**. Recently completed an **LFX Mentorship at Magma-Core (The Linux Foundation)**, where I contributed to cloud-native telecom infrastructure. I build production-grade systems — from event-driven backends processing millions of records to LLM-powered agents shipped to real users.
+
+**Currently exploring:** LLM agent architectures, vector databases, and distributed task processing.
+
+## Experience
+
+### Open Source Contributor — LFX Mentee (Graduated)
+**The Linux Foundation · Magma Core** · *Jan 2026 – May 2026 · Remote*
+
+- Triaged and resolved critical runtime crashes in Magma's Access Gateway by diagnosing a **C++ namespace collision** and correcting linker paths; documented root-cause analysis for the team knowledge base *(PR #15813, PR #15812)*
+- Added **cross-architecture support (x86/ARM)** to the core network stack, validated with senior maintainers to ensure regression coverage across heterogeneous infrastructure
+
+### Software Engineer Intern
+**Midpath Software Pvt. Ltd.** · *Jan 2025 – Mar 2025 · Jaipur, India*
+
+- Built a full-stack **audit logging system** (Django REST API + admin dashboard) providing complete traceability of application state changes; authored documentation enabling smooth operations onboarding
+- Engineered a unified **API adapter for GitHub and GitLab**, resolving integration conflicts between divergent API schemas into a single consistent developer workflow
+- Delivered **velocity heatmap dashboards** that reduced sprint planning overhead by **40%**
+
+### Problem Setter & Lead Organizer
+**IIIT Bhopal Competitive Programming Club (CODÂME)** · *Oct 2025 – Dec 2025 · Bhopal, India*
+
+- Organised **Optigo 2026** (inter-IIIT contest); authored DP/Graph problems rated **CF 1600–1900** and wrote comprehensive problem editorials for the club knowledge base
+- Mentored **200+ junior developers** through weekly algorithm sessions and office hours
+
+## Projects
+
+### 1. AI Agents & Applied LLMs
+
+---
+
+**Razorpay Revenue Recovery AI Agent**  
+`LangChain` · `LLM Agents` · `Python` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/2c221be66fdc4a68ac0d99b3925a5736) · [GitHub](https://github.com/Ujjwal5705/razorpay-revenue-recovery)  
+Autonomous agent that identifies failed payment events and drives recovery workflows — combining payment-signal analysis with LLM-generated, context-aware customer outreach to reclaim at-risk revenue.
+
+---
+
+**Vakitra — Legal AI Platform**  
+`LLM Agents` · `RAG` · `Full-Stack` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/f02d818fa4ff4a43bfe97ec3686fe4ae) · [Website](https://vakitra.onrender.com)  
+AI-powered legal assistant that helps users navigate legal documents and queries through retrieval-augmented generation — translating dense legal language into actionable, cited answers.
+
+---
+
+**Borrower-Copilot**  
+`LLM Agents` · `Full-Stack` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/579286519c4d4df6a00395e70b9f59e0) · [GitHub](https://github.com/Ujjwal5705/Borrower-Copilot)  
+Conversational AI copilot that guides borrowers through loan workflows — surfacing eligibility, obligations, and next steps through natural-language interaction.
+
+---
+
+**AI Dentist Receptionist with TARS**  
+`Voice AI` · `TARS Platform` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/ca98d9899c1b455bbcb15ca504335c6b) · [Live Agent](https://neoagent.hellotars.com/chat/BM0dHepZ)  
+Voice-enabled AI receptionist handling appointment scheduling and patient queries for dental practices, deployed as a live production agent.
+
+---
+
+**Prompt Attack Detection Agent**  
+*Contribution to [Lamatic/AgentKit](https://github.com/Lamatic/AgentKit/pull/206)* &nbsp;·&nbsp; [PR #206](https://github.com/Lamatic/AgentKit/pull/206)  
+Contributed an agent for detecting prompt-injection and adversarial-input attacks in LLM pipelines — merged upstream into the Lamatic AgentKit repository.
+
+### 2. Research & Machine Learning
+
+---
+
+**Virtual Cell — Proteome Prediction from Compound Structure**  
+`LightGBM` · `PCA` · `Structural Embeddings` &nbsp;·&nbsp; [GitHub](https://github.com/Ujjwal5705/goai-virtual-cell-routex)  
+Research project predicting cellular proteome responses to chemical compounds. Combines PCA-reduced structural embeddings of compounds with gradient-boosted regression to model biological response — submitted under the GOAI / Virtual Cell track.
+
+---
+
+**Research-Radar**  
+`Full-Stack` · `IIIT Hyderabad` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/d8151a5d2da34218b86a6766ff04893e) · [GitHub](https://github.com/Ujjwal5705/research-radar)  
+Research discovery tool built for **IIIT Hyderabad** — aggregates and surfaces relevant research across venues and authors, reducing the manual effort of staying current with fast-moving fields.
+
+### 3. Full-Stack Products
+
+---
+
+**Signalist — Fintech Analytics Platform**  
+`Next.js` · `TypeScript` · `MongoDB` · `Finnhub API` · `Inngest` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/a956fd1fd2384458b35736e8e02d9751) · [Website](https://signalist-ujjwal-sharma.vercel.app/)  
+Real-time market-data pipeline with sub-second latency. Integrates Finnhub REST APIs, serves live financial feeds from a MongoDB layer optimised for high-throughput reads, and drives alerts and watchlists through event-driven automation (Inngest) with RBAC and compliance dashboards.
+
+---
+
+**CODÂME — Official Club Website**  
+`React` · `Next.js` · `Framer Motion` · `TailwindCSS` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/39671325c45244d5b07dd87d3ee2aa77) · [Website](https://codame-iiitbhopal.vercel.app/)  
+Official website for IIIT Bhopal's competitive programming club. Achieved a **perfect 100 Lighthouse performance score** via lazy loading and responsive design, with smooth transitions powered by Framer Motion.
+
+---
+
+**CrewLink**  
+`Full-Stack` · `Real-time` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/5948dff792f24b988d3b2479b116aeb0) · [Website](https://crewlink-i1wx.onrender.com/)  
+Platform connecting crews and collaborators — real-time coordination, matching, and communication built on a modern full-stack stack.
+
+### Open Source & Developer Tooling
+
+---
+
+**RouteX** — *My Open-Source Project*  
+`Open Source` &nbsp;·&nbsp; [GitHub](https://github.com/Ujjwal5705/RouteX)  
+Self-initiated open-source project focused on [routing/developer tooling]. *(add one-line description)*
+
+### Other Work
+
+---
+
+**Asynchronous Task Processing Engine** — Distributed task queue (Celery + Redis) processing **1M+ records** with horizontal scalability and structured logging for bottleneck diagnosis. Includes high-volume email dispatch via Brevo API with retry and fault-tolerant delivery at scale.
+
+---
+
+**Cattle Breed Recognition** — Image-classification model deployed in the government's **Bharat Pashudhan App** for real-time breed validation at livestock registration, with a simplified UI for low-literacy field workers.
+
+## Honors & Achievements
+
+| Recognition | Detail |
+|---|---|
+| **AMS Derive** | Ranked **156 / 50,000** globally — top **0.31%** (Jane Street & Qube Research) |
+| **Competitive Programming** | **LeetCode Knight** (Max: 2034) · **Codeforces Candidate Master** (Max: 1913) |
+| **NSoC'26** | **Project Admin** — selected to guide contributors on open-source infrastructure projects |
+| **Millennium Fellow** | Selected by **MCN & UN Academic Impact** for social leadership (Class of 2026) |
+| **Solana Turbine (TURBIN3)** | Selected among **85 engineers globally** for the competitive fellowship cohort |
+| **Sarvam AI** | Member of startup ecosystem and builder program |
+
+## Technical Skills
+
+**AI & ML**  
+`PyTorch` · `TensorFlow / Keras` · `scikit-learn` · `HuggingFace Transformers` · `OpenCV`
+
+**Gen AI & LLMs**  
+`LangChain` · `RAG Pipelines` · `Fine-tuning` · `Prompt Engineering` · `RLHF` · `LLM Evaluation`
+
+**Languages**  
+`C++ (STL)` · `Python` · `JavaScript / TypeScript` · `Bash` · `C`
+
+**Backend & APIs**  
+`Django` · `Node.js` · `REST APIs` · `Celery` · `Event-Driven Architecture`
+
+**Databases**  
+`MongoDB` · `PostgreSQL` · `Redis` · `SQL` · `Vector DBs (Pinecone / Chroma)`
+
+**Frontend**  
+`React.js` · `Next.js` · `TailwindCSS` · `HTML / CSS` · `Framer Motion`
+
+**Debugging & Tools**  
+`GDB` · `Valgrind` · `Docker` · `Git` · `Linux / Unix` · `Makefiles`
+
+**CS Fundamentals**  
+`DSA & Algorithms` · `OOP` · `Distributed Systems` · `System Design` · `Multithreading`
+
+## Education
+
+**Indian Institute of Information Technology, Bhopal** · *Aug 2023 – Present*  
+B.Tech in Computer Science
+
+**Relevant Coursework:** Operating Systems · Distributed Systems · Compiler Design · DSA · Database Systems · Computer Networks · Probability & Statistics
+
+**Certifications:** Google Cybersecurity Professional Certificate
+
+## GitHub Activity
 
 <div align="center">
-  <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" alt="coding-gif" width="400"/>
-</div> 
 
-<h3 align="center">
- ⚡ Turning coffee and complex logic into high-performance software. ⚡
-</h3>
+<img height="160em" src="https://github-readme-stats-fast.vercel.app/api?username=ujjwal5705&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+<img height="160em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ujjwal5705&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Software%20Engineering%20%26%20Development-brightgreen?style=flat-square" />
-  <br/>
-  <img src="https://img.shields.io/badge/Stakeholders%20Addressed-5%2B-FF9800?style=flat-square" />
-  <img src="https://img.shields.io/badge/Based%20in-Meerut%2C%20India-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/IIIT-Bhopal-purple?style=flat-square" />
-</p>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ujjwal5705&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF9800&currStreakLabel=58A6FF" />
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ujjwal-sharma-b16392222/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:sharmaujjwal5706@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/Ujjwal5706/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black" /></a>
-  <a href="https://codeforces.com/profile/sharmaujjwal5706"><img src="https://img.shields.io/badge/Codeforces-445f9d?style=flat-square&logo=Codeforces&logoColor=white" /></a>
-  <a href="https://www.codechef.com/users/ujjwalsharma75"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=flat-square&logo=CodeChef&logoColor=white" /></a>
-  <a href="https://www.geeksforgeeks.org/profile/sharmaujjv9tf"><img src="https://img.shields.io/badge/GFG-2f8d46?style=flat-square&logo=geeksforgeeks&logoColor=white" /></a>
-  <a href="https://www.naukri.com/code360/profile/ef8a7ff8-7e89-413e-9a5b-0b4d7eb0c49c"><img src="https://img.shields.io/badge/CodeStudio-F36B2B?style=flat-square&logo=codingninjas&logoColor=white" /></a>
-  <a href="https://www.interviewbit.com/profile/ujjwal-sharma_578/"><img src="https://img.shields.io/badge/InterviewBit-4A90E2?style=flat-square&logo=interviewbit&logoColor=white" /></a>
-  <a href="https://www.hackerrank.com/profile/sharmaujjwal5705"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=flat-square&logo=hackerrank&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Ujjwal5705&style=flat-square&color=00D9FF" />
-</p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ujjwal5705&theme=github-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF9800&area=true&hide_border=true" alt="Contribution Graph" />
 
----
+</div>
 
-## <div align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7AA6B&center=true&vCenter=true&width=600&height=40&lines=Remember%3A+Dream+in+logic+,+build+in+code" alt="Motivational Quote" /></div>
-## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40"> About Me
+## Competitive Programming
 
-I'm a passionate Computer Science student at **IIIT Bhopal** (B.Tech CSE, CGPA: 8.57) who loves building real-world applications that solve actual problems. Driven by curiosity, I'm constantly exploring new tech — from backend systems and cloud infra to Quant and generative AI.
+[![LeetCode](https://img.shields.io/badge/LeetCode-Ujjwal5706-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/Ujjwal5706/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-sharmaujjwal5706-445f9d?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/sharmaujjwal5706)
+[![CodeChef](https://img.shields.io/badge/CodeChef-ujjwalsharma75-5B4638?style=flat&logo=codechef&logoColor=white)](https://www.codechef.com/users/ujjwalsharma75)
+[![GFG](https://img.shields.io/badge/GeeksforGeeks-sharmaujjv9tf-2f8d46?style=flat&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/sharmaujjv9tf)
+[![HackerRank](https://img.shields.io/badge/HackerRank-sharmaujjwal5705-2EC866?style=flat&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/sharmaujjwal5705)
+[![CodeStudio](https://img.shields.io/badge/CodeStudio-Profile-F36B2B?style=flat&logo=codingninjas&logoColor=white)](https://www.naukri.com/code360/profile/ef8a7ff8-7e89-413e-9a5b-0b4d7eb0c49c)
+[![InterviewBit](https://img.shields.io/badge/InterviewBit-Profile-4A90E2?style=flat&logo=interviewbit&logoColor=white)](https://www.interviewbit.com/profile/ujjwal-sharma_578/)
 
-- **LFX'26 Mentee @ Magma-Core** (The Linux Foundation)
-- Strong interest in **Systems Programming**, **Linux**, **Networking**, and **Backend Engineering**
-- Competitive programmer with **1500+ DSA problems** solved
-- Currently exploring **Microservices Architecture** and **System Design**
-- Always learning, always building
+<div align="center">
 
----
+*"Dream in logic, build in code."*
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Experience
-
-
-
-<details open>
-<summary><b>LFX'26 mentee — Magma-Core</b> &nbsp;<code>Jan 2026 – May 2026</code></summary>
-    
 <br/>
 
->  Contributed to cloud-native telecom infrastructure powering scalable and vendor-neutral mobile core networks.
-
-- **Network Systems** — Worked on telecom infrastructure components supporting scalable private **LTE/5G deployments** through federation and **CBRS integration**.
-- **Production-Scale Collaboration** — Collaborated with mentors and maintainers across a **globally distributed open-source ecosystem**.
-- **Engineering Workflows** — Participated in feature **development**, **testing**, **debugging**, and **deployment** processes for production-oriented networking software.
-- **Systems Engineering** — Applied concepts from **Linux**, **Networking**, **Distributed Systems**, and **Cloud Infrastructure** in a real-world open-source environment.
-
-</details>
-
-<details open>
-<summary><b>Development Lead — CODÂME, IIIT Bhopal</b> &nbsp;<code>Sep 2025 – May 2026</code></summary>
+<!-- Replace <hash> with the direct media path from Tenor, or self-host at assets/captain-levi.gif -->
+<img src="https://media.tenor.com/<hash>/AAAAC/captain-levi.gif" alt="Captain Levi" width="420" />
 
 <br/>
 
-> Led development initiatives and coordinated engineering efforts across student-led technical projects
+<img src="https://komarev.com/ghpvc/?username=Ujjwal5705&style=flat-square&color=58A6FF&label=Profile+Views" />
 
-- **Mentorship** — Guided members on web development, Git workflows, open-source practices, and collaborative software engineering.
-- **Community Building** — Organized technical events, coding sessions, and project-based learning activities.
-- **Engineering Culture** — Helped foster a strong development and open-source culture within the institute.
-
-</details>
-
-<details open>
-<summary><b>Full Stack Developer Intern — MidPath</b> &nbsp;<code>Jan 2025 – Mar 2025</code></summary>
-
-<br/>
-
-- **Project Synchronization** — Developed controls for managing GitHub, GitLab, Bitbucket, and Sourcehut project synchronization through a centralized interface.
-- **Issue Management** — Built bulk issue selection and transfer workflows, significantly reducing manual project administration effort.
-- **Calendar Visualization** — Enhanced FullCalendar integration to display milestone dependencies and linked issue relationships.
-- **Audit Logging** — Implemented secure activity logging enabling administrators to track and review system-wide changes.
-- **Workflow Automation** — Improved GitLab ↔ Gitea milestone synchronization and export reliability across collaborative projects.
-
-</details>
-
----
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> Achievements
-
-<div align="center">
-
-|         🏅 Achievements        |                               Details                              |
-| :----------------------------: | :----------------------------------------------------------------: |
-|             LFX'26             |           **Mentee @ Magma-Core (The Linux Foundation)**           |
-|     Google Big Code 2026       |                        **Round 2 Qualifier**                       |
-|     Nexus Spring of Code       |                          **Project Admin**                         |
-|          GSSoC 2024            |             **Open Source Contributor** — Rank **191**             |
-|          Codeforces            |                   **Candidate Master**                             |
-|           LeetCode             |                             **Knight**                             |
-|           CodeChef             |                        **3-Star Programmer**                       |
-|   Competitive Programming      |             **1500+ Problems Solved** across platforms             |
-|      OPTIGO (Inter-IIIT)       |                 **Top 5%** among 1000+ participants                |
-|     CodeChef Starters 156      |                 **Rank 172 / 43,114 Participants**                 |
-|          Leadership            |                    **Development Lead @ CODÂME**                   |
-|       Community Impact         | Mentored contributors through **NSoC** and open-source initiatives |
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="40"> Github Stats
-
-<div align="center">
-
-  <img height="175em" src="https://github-readme-stats-fast.vercel.app/api?username=ujjwal5705&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9&v=2" />
-  <img height="175em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ujj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=8&v=2" />
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ujjwal5705&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=FF9800&currStreakLabel=00D9FF" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ujjwal5705&theme=react-dark&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FF9800&area=true&hide_border=true" alt="Contribution Graph" />
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="30"> Languages and Tools
-
-<div align="center">
-
-### Languages
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![eBPF](https://img.shields.io/badge/eBPF-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-
-### Frontend
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### Backend & AI
-
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white)
-![Django](https://img.shields.io/badge/Django-43853D?style=flat-square&logo=django&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-blueviolet?style=flat-square)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-
-### Databases & Storage
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat-square&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Drizzle ORM](https://img.shields.io/badge/Drizzle%20ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
-![NeonDB](https://img.shields.io/badge/NeonDB-00E599?style=flat-square)
-![Supabase](https://img.shields.io/badge/Supabase-181818?style=flat-square&logo=supabase&logoColor=white)
-
-### Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-
-### Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![GDB](https://img.shields.io/badge/GDB-3E3E3E?style=flat-square&logo=gnu&logoColor=white)
-![Valgrind](https://img.shields.io/badge/Valgrind-333333?style=flat-square)
-
-</div>
-
----
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal5705/Ujjwal5705/main/dist/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ujjwal5705/Ujjwal5705/main/dist/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ujjwal5705/Ujjwal5705/main/dist/github-contribution-grid-snake.svg">
-</picture>
-
-
-<div align="center">
-  <h3><a href="https://drive.google.com/file/d/1MxVwimhukHPmHfJx2wtJerh2erFi39Z3/view?usp=sharing">Check out my Resume</a></h3>
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3R0aHZuMWFhdDN4MHJuZXVzeHNxd3dkMmNveHZxd3VydWh0cmtxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L8K62iTDkzGX6/giphy.gif" width="400" />
 </div>
