@@ -117,8 +117,8 @@ I'm a passionate Computer Science student at **IIIT Bhopal** (B.Tech CSE, CGPA: 
 
 <div align="center">
 
-  <img height="175em" src="https://github-readme-stats-fast.vercel.app/api?username=ujjwal5705&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9" />
-  <img height="175em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ujj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=8" />
+  <img height="175em" src="https://github-readme-stats-fast.vercel.app/api?username=ujjwal5705&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9&v=2" />
+  <img height="175em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ujj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=8&v=2" />
 
 </div>
 
