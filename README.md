@@ -113,7 +113,7 @@ Official website for IIIT Bhopal's competitive programming club. Achieved a **pe
 `Full-Stack` · `Real-time` &nbsp;·&nbsp; [Demo](https://www.loom.com/share/5948dff792f24b988d3b2479b116aeb0) · [Website](https://crewlink-i1wx.onrender.com/)  
 Platform connecting crews and collaborators — real-time coordination, matching, and communication built on a modern full-stack stack.
 
-### Open Source & Developer Tooling
+### 4. Open Source & Developer Tooling
 
 ---
 
@@ -121,7 +121,7 @@ Platform connecting crews and collaborators — real-time coordination, matching
 `Open Source` &nbsp;·&nbsp; [GitHub](https://github.com/Ujjwal5705/RouteX)  
 Self-initiated open-source project focused on [routing/developer tooling]. *(add one-line description)*
 
-### Other Work
+### 5. Other Work
 
 ---
 
