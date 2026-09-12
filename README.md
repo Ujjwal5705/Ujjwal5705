@@ -12,7 +12,7 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sharmaujjwal5706@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Ujjwal5706-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/Ujjwal5706/)
 [![Codeforces](https://img.shields.io/badge/Codeforces-sharmaujjwal5706-445f9d?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/sharmaujjwal5706)
-[![Resume](https://img.shields.io/badge/Resume-View-1A1A1A?style=flat&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1MxVwimhukHPmHfJx2wtJerh2erFi39Z3/view?usp=sharing)
+[![Resume](https://img.shields.io/badge/Resume-View-1A1A1A?style=flat&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1mdhT7vSacg2rqudVgEGibQqyFzRAkN42/view?usp=sharing)
 
 +91 6397643305 · India · Open to Software Engineering roles
 
