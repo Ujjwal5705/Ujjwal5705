@@ -204,9 +204,6 @@ B.Tech in Computer Science
 
 *"Dream in logic, build in code."*
 
-<br/>
-
-<!-- Replace <hash> with the direct media path from Tenor, or self-host at assets/captain-levi.gif -->
 <img src="https://media1.tenor.com/m/LhEuUb14m0oAAAAC/attack-on-titan-levi-ackerman.gif" alt="Captain Levi" width="420" />
 
 <br/>
