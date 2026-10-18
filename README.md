@@ -14,8 +14,7 @@
 [![Codeforces](https://img.shields.io/badge/Codeforces-sharmaujjwal5706-445f9d?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/sharmaujjwal5706)
 [![Resume](https://img.shields.io/badge/Resume-View-1A1A1A?style=flat&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1mdhT7vSacg2rqudVgEGibQqyFzRAkN42/view?usp=sharing)
 
-<img src="https://komarev.com/ghpvc/?username=Ujjwal5705&style=flat-square&color=58A6FF&label=Profile+Views" />
-
+<img src="https://komarev.com/ghpvc/?username=Ujjwal5705&style=flat-square&color=58A6FF&label=Profile%20Views" alt="Profile Views" />
 
 +91 6397643305 · India · Open to Software Engineering roles
 
