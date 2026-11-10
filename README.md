@@ -1,11 +1,11 @@
 <!-- Generated assets: python scripts/render_cards.py. See docs/cards.md. -->
 
-<a href="https://sharma-ujjwal.vercel.app"><img src="cards/hero.svg" width="100%" alt="Ujjwal Sharma — software engineer building backends, distributed systems, and applied AI. IIIT Bhopal, India." /></a>
+<a href="https://sharma-ujjwal.vercel.app"><img src="cards/hero.svg" width="100%" alt="Ujjwal Sharma — software engineer focused on backend systems, distributed computing, and applied AI. IIIT Bhopal. LFX '26, Magma Core." /></a>
 
 <p align="center">
-  <a href="https://sharma-ujjwal.vercel.app"><img src="cards/portfolio.svg" width="32.5%" alt="Portfolio — projects, writing and a little music" /></a>
+  <a href="https://sharma-ujjwal.vercel.app"><img src="cards/portfolio.svg" width="32.5%" alt="Portfolio — projects and technical writing" /></a>
   <a href="https://www.linkedin.com/in/ujjwal-sharma-b16392222/"><img src="cards/linkedin.svg" width="32.5%" alt="Connect with Ujjwal on LinkedIn" /></a>
-  <a href="mailto:sharmaujjwal5706@gmail.com"><img src="cards/contact.svg" width="32.5%" alt="Email Ujjwal — open to software engineering roles" /></a>
+  <a href="mailto:sharmaujjwal5706@gmail.com"><img src="cards/contact.svg" width="32.5%" alt="Contact Ujjwal about software engineering opportunities" /></a>
 </p>
 
 <img src="cards/activity.svg" width="100%" alt="GitHub contributions by month, current streak, active days, and busiest day — refreshed daily" />
@@ -23,7 +23,7 @@
 <a href="https://github.com/Ujjwal5705?tab=overview"><img src="cards/contributions.svg" width="100%" alt="Ujjwal's contribution calendar and weekly activity graph in sage green" /></a>
 
 <p align="center">
-  <a href="docs/profile-details.md">Experience &amp; more work</a> ·
+  <a href="docs/profile-details.md">Experience &amp; projects</a> ·
   <a href="https://drive.google.com/file/d/1mdhT7vSacg2rqudVgEGibQqyFzRAkN42/view?usp=sharing">Résumé</a> ·
   <a href="https://leetcode.com/u/Ujjwal5706/">LeetCode</a> ·
   <a href="https://codeforces.com/profile/sharmaujjwal5706">Codeforces</a>

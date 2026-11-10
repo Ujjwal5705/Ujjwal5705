@@ -37,7 +37,7 @@ python scripts/render_cards.py --portrait /path/to/portrait.png
 
 PNG and JPEG are supported. To keep a portrait in daily builds, commit it under
 `assets/` and add the same `--portrait assets/portrait.png` argument to the workflow's
-render step. The default is a small animated code mark.
+render step. The default hero uses a restrained animated divider.
 
 ## Brand and content
 
@@ -51,11 +51,14 @@ and its deployed stylesheet on 10 November 2026:
 | Sage accent | `#89937a` | `#9da591` |
 | Secondary text | `#57534e` | `#a8a29e` |
 
-Headings use **TASA Explorer**, and body text uses **Oxygen Mono**, as on the
-website. The exact TTF files served by the website are vendored in
+Headings and body copy use **TASA Explorer**, with **Oxygen Mono** for technical
+metadata and chart labels. Both are taken from the website; the exact TTF files
+served by the website are vendored in
 `assets/fonts/`, together with their SIL Open Font Licenses. The renderer runs
 **pyftsubset** on the characters used by each font in each card and embeds the
 result as a base64 WOFF data URI. A normal build needs no network or system fonts.
+The layout uses a consistent type hierarchy, compact repository cards, and a
+four-column activity summary. Animations use short entrances and settle once.
 
 Source font URLs:
 

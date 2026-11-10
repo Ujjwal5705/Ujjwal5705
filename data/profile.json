@@ -1,19 +1,21 @@
 {
   "username": "Ujjwal5705",
   "name": "Ujjwal Sharma",
-  "about": "Software engineer building backends, distributed systems, and applied AI.",
-  "location": "IIIT Bhopal / India",
+  "about": "Software engineer focused on backend systems, distributed computing, and applied AI.",
+  "education": "IIIT Bhopal / Computer Science",
+  "open_source": "LFX '26 / Magma Core",
+  "location": "Bhopal, India",
   "website": "https://sharma-ujjwal.vercel.app",
   "tiles": [
-    {"file": "portfolio", "label": "01 / EXPLORE", "title": "The bigger picture.", "subtitle": "Projects, writing & a little music.", "footer": "sharma-ujjwal.vercel.app", "url": "https://sharma-ujjwal.vercel.app"},
-    {"file": "linkedin", "label": "02 / CONNECT", "title": "Let's connect.", "subtitle": "Engineering, ideas & open source.", "footer": "Find me on LinkedIn", "url": "https://www.linkedin.com/in/ujjwal-sharma-b16392222/"},
-    {"file": "contact", "label": "03 / SAY HELLO", "title": "Build something?", "subtitle": "Open to software engineering roles.", "footer": "Drop me an email", "url": "mailto:sharmaujjwal5706@gmail.com"}
+    {"file": "portfolio", "title": "Portfolio", "subtitle": "Projects and technical writing", "footer": "sharma-ujjwal.vercel.app", "url": "https://sharma-ujjwal.vercel.app"},
+    {"file": "linkedin", "title": "LinkedIn", "subtitle": "Experience and professional updates", "footer": "View professional profile", "url": "https://www.linkedin.com/in/ujjwal-sharma-b16392222/"},
+    {"file": "contact", "title": "Contact", "subtitle": "Software engineering opportunities", "footer": "sharmaujjwal5706@gmail.com", "url": "mailto:sharmaujjwal5706@gmail.com"}
   ],
   "repos": [
     {"slug": "razorpay-revenue-recovery", "title": "Revenue Recovery", "category": "AI AGENTS / PAYMENTS", "description": "An autonomous agent that finds failed payments and drives context-aware recovery workflows.", "tags": ["Python", "LangChain", "LLM agents"], "url": "https://github.com/Ujjwal5705/razorpay-revenue-recovery"},
-    {"slug": "Borrower-Copilot", "title": "Borrower Copilot", "category": "AI AGENTS / FINTECH", "description": "A conversational guide to borrowing: eligibility, fair rates, and a clearer path to the next step.", "tags": ["JavaScript", "LLM agents", "Full stack"], "url": "https://github.com/Ujjwal5705/Borrower-Copilot"},
+    {"slug": "Borrower-Copilot", "title": "Borrower Copilot", "category": "AI AGENTS / FINTECH", "description": "An AI assistant for assessing loan eligibility, comparing lending terms, and preparing borrower recommendations.", "tags": ["JavaScript", "LLM agents", "Full stack"], "url": "https://github.com/Ujjwal5705/Borrower-Copilot"},
     {"slug": "goai-virtual-cell-routex", "title": "Virtual Cell", "category": "RESEARCH / MACHINE LEARNING", "description": "Predicting proteome responses from compound structure with PCA embeddings and gradient boosting.", "tags": ["Python", "LightGBM", "PCA"], "url": "https://github.com/Ujjwal5705/goai-virtual-cell-routex"},
-    {"slug": "research-radar", "title": "Research Radar", "category": "RESEARCH / DISCOVERY", "description": "Discover ML and robotics papers, filter the noise, and turn abstracts into plain-language summaries.", "tags": ["Python", "LLMs", "Full stack"], "url": "https://github.com/Ujjwal5705/research-radar"},
+    {"slug": "research-radar", "title": "Research Radar", "category": "RESEARCH / DISCOVERY", "description": "A research discovery platform for searching ML and robotics papers and generating accessible summaries.", "tags": ["Python", "LLMs", "Full stack"], "url": "https://github.com/Ujjwal5705/research-radar"},
     {"slug": "RouteX", "title": "RouteX", "category": "SYSTEMS / OPEN SOURCE", "description": "A systems-level intercepting proxy in C that routes TCP connections through Tor without app support.", "tags": ["C", "TCP", "Tor"], "url": "https://github.com/Ujjwal5705/RouteX"}
   ]
 }

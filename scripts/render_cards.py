@@ -139,7 +139,7 @@ def text(x, y, value, size=14, cls="mono", **attributes) -> str:
 
 
 def label(x, y, value, **attributes) -> str:
-    attributes.setdefault("letter_spacing", "1.5")
+    attributes.setdefault("letter_spacing", ".8")
     return text(x, y, value, 11, "mono muted", **attributes)
 
 
@@ -202,9 +202,12 @@ svg{--bg:#fefcf8;--fg:#1c1917;--muted:#57534e;--subtle:#79716b;--accent:#89937a;
     --border:#e7e5e4;--surface:#f5f5f4;--heat0:#eeece7;--heat1:#dde1d5;
     --heat2:#b7bfa8;--heat3:#89937a;--heat4:#5d674f;color:var(--fg)}
 @media(prefers-color-scheme:dark){svg{--bg:#1c1917;--fg:#ededed;--muted:#a8a29e;
-    --subtle:#a6a09b;--accent:#9da591;--border:#57534d;--surface:#292524;
+    --subtle:#a6a09b;--accent:#9da591;--border:#39342f;--surface:#292524;
     --heat0:#292524;--heat1:#42493a;--heat2:#626e52;--heat3:#89937a;--heat4:#9da591}}
-text{fill:var(--fg)}.heading{font-family:'TASA',sans-serif;font-weight:700;letter-spacing:-1px}
+text{fill:var(--fg)}.heading{font-family:'TASA',sans-serif;font-weight:600;letter-spacing:-.5px}
+.hero-title{font-weight:650;letter-spacing:-1.2px}.body-copy{font-weight:400;letter-spacing:0}
+.metric{font-weight:550;letter-spacing:-.6px;font-variant-numeric:tabular-nums}
+.project-title{font-weight:550;letter-spacing:-.35px}
 .mono{font-family:'Oxygen',monospace;font-weight:400}.muted{fill:var(--muted)}
 .subtle{fill:var(--subtle)}.accent{stroke:var(--accent)}.accent-fill{fill:var(--accent)}
 .border{stroke:var(--border);stroke-width:1}.surface{fill:var(--surface)}
@@ -214,10 +217,10 @@ text{fill:var(--fg)}.heading{font-family:'TASA',sans-serif;font-weight:700;lette
 """
     if not static:
         styles += f"""
-@keyframes arrive{{from{{opacity:0;transform:translateY(10px)}}to{{opacity:1;transform:translateY(0)}}}}
+@keyframes arrive{{from{{opacity:0;transform:translateY(4px)}}to{{opacity:1;transform:translateY(0)}}}}
 @keyframes grow{{from{{transform:scaleY(0)}}to{{transform:scaleY(1)}}}}
 @media(prefers-reduced-motion:no-preference){{
-  .reveal{{animation:arrive .65s cubic-bezier(.2,.7,.2,1) {delay:.2f}s both}}
+  .reveal{{animation:arrive .45s cubic-bezier(.2,.7,.2,1) {delay:.2f}s both}}
   .bar{{transform-box:fill-box;transform-origin:center bottom;
         animation:grow .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--delay)}}
 }}
@@ -233,17 +236,21 @@ text{fill:var(--fg)}.heading{font-family:'TASA',sans-serif;font-weight:700;lette
             f'viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">\n'
             f'<title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>\n'
             f'<style><![CDATA[{styles}]]></style>\n'
-            f'<rect class="frame" x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="16"/>\n'
+            f'<rect class="frame" x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="8"/>\n'
             f'<g class="reveal">{body}</g>\n</svg>\n')
 
 
 def hero(profile: dict, static: bool, portrait: Path | None) -> str:
-    body = label(36, 39, "SOFTWARE ENGINEER / OPEN SOURCE / AI")
-    body += text(36, 124, profile["name"], 67, "heading")
-    body += text(38, 165, profile["about"], 15)
-    body += rule(205)
-    body += label(38, 239, profile["location"].upper())
-    body += text(924, 239, "Dream in logic, build in code.", 12, "mono muted", text_anchor="end")
+    body = label(40, 39, "SOFTWARE ENGINEER")
+    body += text(920, 39, "@" + profile["username"], 11, "mono subtle", text_anchor="end")
+    body += text(38, 102, profile["name"], 54, "heading hero-title")
+    body += text(40, 140, profile["about"], 17, "heading body-copy muted")
+    body += smil_draw("M40 174H920", .12, .8, static, stroke_width="1", opacity=".65")
+    for x, caption, value in ((40, "EDUCATION", profile["education"]),
+                              (388, "OPEN SOURCE", profile["open_source"]),
+                              (748, "BASED IN", profile["location"])):
+        body += label(x, 204, caption)
+        body += text(x, 228, value, 14, "heading body-copy")
     if portrait:
         raw = portrait.read_bytes()
         if raw.startswith(b"\x89PNG\r\n\x1a\n"):
@@ -253,83 +260,76 @@ def hero(profile: dict, static: bool, portrait: Path | None) -> str:
         else:
             raise ValueError("Portrait must be a PNG or JPEG so it can be embedded in an img-safe SVG")
         uri = f"data:{mime};base64,{base64.b64encode(raw).decode()}"
-        body += ('<defs><clipPath id="portrait"><circle cx="862" cy="88" r="47"/></clipPath></defs>'
-                 f'<image href="{uri}" x="815" y="41" width="94" height="94" '
+        body += ('<defs><clipPath id="portrait"><circle cx="868" cy="98" r="36"/></clipPath></defs>'
+                 f'<image href="{uri}" x="832" y="62" width="72" height="72" '
                  'preserveAspectRatio="xMidYMid slice" clip-path="url(#portrait)"/>')
-    else:
-        body += '<circle cx="863" cy="88" r="43" class="surface"/>'
-        body += smil_draw("M843 76 831 88 843 100 M883 76 895 88 883 100 M870 69 856 107",
-                          .2, 1.1, static, stroke_width="2.3", stroke_linecap="round",
-                          stroke_linejoin="round")
-        body += label(863, 30, "@" + profile["username"], text_anchor="middle", letter_spacing="0")
-    return card(profile["name"] + " — Software Engineer", profile["about"], body, 266, 0, static)
+    return card(profile["name"] + " — Software Engineer", profile["about"], body, 252, 0, static)
 
 
 def tile(item: dict, index: int, static: bool) -> str:
-    body = label(22, 30, item["label"], letter_spacing="1") + arrow(271, 18, 17)
-    body += text(22, 72, item["title"], 26, "heading")
-    body += text(22, 99, item["subtitle"], 10, "mono muted")
-    body += f'<path d="M22 119H290" class="border"/>'
-    body += text(22, 145, item["footer"], 10, "mono subtle")
-    return card(item["title"], item["subtitle"], body, 166, .35 + index * .13, static, 312)
+    body = text(24, 42, item["title"], 24, "heading project-title") + arrow(269, 26, 17)
+    body += text(24, 69, item["subtitle"], 13, "heading body-copy muted")
+    body += text(24, 101, item["footer"], 10, "mono subtle")
+    return card(item["title"], item["subtitle"], body, 124, .24 + index * .12, static, 312)
 
 
 def activity(days: list[tuple[date, int]], stats: dict, static: bool) -> str:
     first, last = days[0][0], days[-1][0]
-    body = label(36, 34, "THE WORK, DAY BY DAY")
-    body += text(36, 76, "A year of showing up.", 36, "heading")
-    body += text(924, 73, f'{stats["total"]:,} contributions', 17, "mono muted", text_anchor="end")
+    body = text(36, 39, "GitHub activity", 26, "heading")
+    body += text(36, 62, f'Contributions over the last {len(days)} days', 14, "heading body-copy muted")
+    body += text(924, 39, f'{first:%d %b %Y} - {last:%d %b %Y}', 11, "mono subtle", text_anchor="end")
     busiest_date, busiest_count = stats["busiest"]
-    metrics = [(f'{stats["streak"]} days', "CURRENT STREAK"),
+    metrics = [(f'{stats["total"]:,}', "CONTRIBUTIONS"),
+               (f'{stats["streak"]} days', "CURRENT STREAK"),
                (str(stats["active"]), "ACTIVE DAYS"),
-               (f'{busiest_count} contributions', "BUSIEST DAY"),
-               (busiest_date.strftime("%d %b %Y") if busiest_count else "No activity yet", "PEAK DATE")]
+               (str(busiest_count), "BUSIEST DAY")]
     for index, (value, caption) in enumerate(metrics):
         x = 36 + index * 230
-        body += text(x, 126, value, 25, "heading") + label(x, 151, caption, letter_spacing=".7")
-    body += rule(172)
+        body += text(x, 113, value, 31, "heading metric") + label(x, 137, caption)
+        if index:
+            body += f'<path d="M{x - 24} 88V143" class="border"/>'
+    body += text(726, 155, busiest_date.strftime("%d %b %Y") if busiest_count else "No activity yet",
+                 10, "mono subtle")
+    body += label(36, 178, "MONTHLY CONTRIBUTIONS")
+    body += text(924, 178, "First and last months may be partial", 10, "mono subtle", text_anchor="end")
     monthly = stats["monthly"]
     maximum = max(1, max(value for _, value in monthly))
     ceiling = max(10, math.ceil(maximum / 50) * 50)
     for ratio in (0, .5, 1):
-        y = 310 - ratio * 100
+        y = 292 - ratio * 90
         body += f'<path d="M65 {y}H924" class="border" stroke-dasharray="2 6"/>'
         body += text(48, y + 4, str(round(ceiling * ratio)), 10, "mono subtle", text_anchor="end")
     step = 852 / len(monthly)
     for index, (month, count) in enumerate(monthly):
         x = 72 + index * step
-        height = count / ceiling * 100
-        body += (f'<rect x="{x:.2f}" y="{310 - height:.2f}" width="{step - 18:.2f}" '
-                 f'height="{height:.2f}" rx="3" class="bar accent-fill" '
-                 f'style="--delay:{1.0 + index * .045:.2f}s"><title>{month}: {count} contributions</title></rect>')
+        height = count / ceiling * 90
+        body += (f'<rect x="{x:.2f}" y="{292 - height:.2f}" width="{step - 18:.2f}" '
+                 f'height="{height:.2f}" rx="2" class="bar accent-fill" '
+                 f'style="--delay:{.9 + index * .04:.2f}s"><title>{month}: {count} contributions</title></rect>')
         center = x + (step - 18) / 2
-        body += text(f"{center:.2f}", f"{300 - height:.2f}", count, 10, "mono muted", text_anchor="middle")
-        body += text(f"{center:.2f}", 332, calendar.month_abbr[int(month[-2:])].upper(),
+        body += text(f"{center:.2f}", f"{282 - height:.2f}", count, 10, "mono muted", text_anchor="middle")
+        body += text(f"{center:.2f}", 314, calendar.month_abbr[int(month[-2:])].upper(),
                      10, "mono muted", text_anchor="middle")
-    body += rule(351)
-    body += text(36, 377, f'{first:%d %b %Y} - {last:%d %b %Y} / Edge months are partial.', 10, "mono subtle")
-    body += text(924, 377, f'Longest streak: {stats["longest"]} days', 10, "mono subtle", text_anchor="end")
+    body += rule(334)
+    body += text(36, 357, f'Longest streak: {stats["longest"]} days', 10, "mono subtle")
+    body += text(924, 357, f'Data through {last:%d %b %Y}', 10, "mono subtle", text_anchor="end")
     desc = (f'{stats["total"]} contributions from {first} to {last}. '
             f'Current streak {stats["streak"]} days; {stats["active"]} active days. '
             f'Busiest day: {busiest_date}, {busiest_count} contributions. '
             + "Monthly totals: " + ", ".join(f"{month}: {value}" for month, value in monthly))
-    return card("GitHub contributions by month", desc, body, 398, .85, static)
+    return card("GitHub contributions by month", desc, body, 376, .72, static)
 
 
 def repository(repo: dict, index: int, static: bool) -> str:
-    body = label(36, 33, f'{index + 1:02d} / {repo["category"]}')
-    body += text(36, 78, repo["title"], 34, "heading") + arrow(896, 44, 24)
-    for line_index, value in enumerate(textwrap.wrap(repo["description"], width=91)):
-        body += text(36, 109 + line_index * 21, value, 14, "mono muted")
-    body += rule(148)
-    x = 36
-    for tag in repo["tags"]:
-        width = 22 + len(tag) * 6.65
-        body += f'<rect x="{x}" y="162" width="{width}" height="24" rx="5" class="surface"/>'
-        body += text(x + 11, 178, tag, 11, "mono muted")
-        x += width + 8
-    body += text(924, 178, repo["slug"], 11, "mono subtle", text_anchor="end")
-    return card(repo["title"], repo["description"], body, 204, 1.5 + index * .38, static)
+    body = text(29, 45, f'{index + 1:02d}', 12, "mono subtle")
+    body += '<path d="M66 27V130" class="border"/>'
+    body += text(90, 46, repo["title"], 26, "heading project-title")
+    body += text(924, 42, repo["category"], 10, "mono subtle", text_anchor="end")
+    for line_index, value in enumerate(textwrap.wrap(repo["description"], width=108)):
+        body += text(90, 77 + line_index * 21, value, 15, "heading body-copy muted")
+    body += text(90, 130, " / ".join(repo["tags"]), 11, "mono subtle")
+    body += arrow(900, 112, 18)
+    return card(repo["title"], repo["description"], body, 156, 1.15 + index * .31, static)
 
 
 def heat_level(count: int, maximum: int) -> int:
@@ -337,14 +337,14 @@ def heat_level(count: int, maximum: int) -> int:
 
 
 def graph(days: list[tuple[date, int]], stats: dict, delay: float, static: bool) -> str:
-    body = label(36, 34, "SMALL STEPS, COMPOUNDING")
-    body += text(36, 77, "The contribution trail.", 36, "heading")
-    body += text(924, 73, f'{stats["active"]} active days', 13, "mono muted", text_anchor="end")
+    body = text(36, 39, "Contribution calendar", 26, "heading")
+    body += text(36, 62, "Daily contributions and weekly activity", 14, "heading body-copy muted")
+    body += text(924, 39, f'{stats["active"]} active days', 11, "mono subtle", text_anchor="end")
     first_sunday = days[0][0] - timedelta(days=(days[0][0].weekday() + 1) % 7)
     columns = ((days[-1][0] - first_sunday).days // 7) + 1
     step = min(16, 854 / columns)
     size = step - 4
-    start_x, start_y = 69, 124
+    start_x, start_y = 69, 106
     for row, name in ((1, "M"), (3, "W"), (5, "F")):
         body += text(36, start_y + row * step + 10, name, 10, "mono subtle")
     maximum = max(count for _, count in days)
@@ -359,25 +359,25 @@ def graph(days: list[tuple[date, int]], stats: dict, delay: float, static: bool)
         if month not in months and (day.day <= 7 or not months):
             # Do not overprint the first partial month's label with the next one.
             if column == 0 or column >= 3:
-                body += text(f"{x:.2f}", 111, day.strftime("%b").upper(), 10, "mono subtle")
+                body += text(f"{x:.2f}", 93, day.strftime("%b").upper(), 10, "mono subtle")
             months.add(month)
         body += (f'<rect x="{x:.2f}" y="{y:.2f}" width="{size:.2f}" height="{size:.2f}" '
                  f'rx="2" class="heat{heat_level(count, maximum)}">'
                  f'<title>{day.isoformat()}: {count} contributions</title></rect>')
-    baseline = 266
+    baseline = 246
     weekly_max = max(1, max(weekly.values()))
     points = [(start_x + index * step + size / 2, baseline - weekly[index] / weekly_max * 23)
               for index in range(columns)]
     path = "M" + " L".join(f"{x:.2f} {y:.2f}" for x, y in points)
     body += smil_draw(path, delay + .15, 1.2, static, stroke_width="1.8", stroke_linejoin="round")
-    body += rule(286)
-    body += text(36, 313, f'GITHUB / {days[-1][0]:%d %b %Y} / Weekly pulse above', 10, "mono subtle")
-    body += text(748, 313, "Less", 10, "mono subtle")
+    body += rule(264)
+    body += text(36, 290, f'GitHub contribution data / {days[-1][0]:%d %b %Y}', 10, "mono subtle")
+    body += text(748, 290, "Less", 10, "mono subtle")
     for level in range(5):
-        body += f'<rect x="{789 + level * 17}" y="303" width="12" height="12" rx="2" class="heat{level}"/>'
-    body += text(924, 313, "More", 10, "mono subtle", text_anchor="end")
+        body += f'<rect x="{789 + level * 17}" y="280" width="12" height="12" rx="2" class="heat{level}"/>'
+    body += text(924, 290, "More", 10, "mono subtle", text_anchor="end")
     return card("GitHub contribution graph", f'A sage contribution calendar for {days[0][0]} through '
-                f'{days[-1][0]}, with a weekly contribution line.', body, 334, delay, static)
+                f'{days[-1][0]}, with a weekly contribution line.', body, 310, delay, static)
 
 
 def preview_html(profile: dict) -> str:
@@ -428,7 +428,7 @@ def main() -> None:
         if not re.fullmatch(r"[A-Za-z0-9_.-]+", repo["slug"]):
             raise ValueError("Repository slugs must be safe file names")
         output[f'repo-{repo["slug"].lower()}.svg'] = repository(repo, index, static)
-    output["contributions.svg"] = graph(days, stats, 1.6 + len(profile["repos"]) * .38, static)
+    output["contributions.svg"] = graph(days, stats, 1.2 + len(profile["repos"]) * .31, static)
     # Build and validate everything before replacing any existing card.
     for svg in output.values():
         ET.fromstring(svg)
