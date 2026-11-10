@@ -1,33 +1,62 @@
-name: Generate Snake Animation
+name: Refresh Profile Cards
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight
-  workflow_dispatch: # Allows you to run it manually
+    - cron: "0 0 * * *" # Daily at 00:00 UTC / 05:30 IST
+  workflow_dispatch:
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    permissions: 
+    timeout-minutes: 10
+    permissions:
       contents: write
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install font subsetter
+        run: python -m pip install -r requirements.txt
+
+      - name: Check contribution calculations and card output
+        run: python -m unittest discover -s tests -v
+
+      - name: Refresh contribution JSON
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/render_cards.py --refresh-only
+
+      - name: Render animated profile cards
+        env:
+          STATIC: "0"
+        run: python scripts/render_cards.py
+
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Ujjwal5705
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%235d674f&color_dots=%23eeece7,%23dde1d5,%23b7bfa8,%2389937a,%235d674f
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%239da591&color_dots=%23292524,%2342493a,%23626e52,%2389937a,%239da591
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Automated: Update snake animation"
-          branch: main
-          file_pattern: dist/*
+          commit_message: "Automated: Refresh profile data and cards"
+          branch: ${{ github.event.repository.default_branch }}
+          file_pattern: data/contributions.json cards/*.svg dist/*.svg
